@@ -2,8 +2,6 @@
 
 > 🤖 **AI-Generated**: This documentation was made with AI help. Feel free to edit and improve it :)
 
-Welcome to the Shaazzz-Guide project maintenance documentation. This guide provides comprehensive instructions for contributors and maintainers on how to update and maintain the project effectively.ازززگاید (Shaazzz Guide)
-
 Welcome to the Shaazzz-Guide project maintenance documentation. This guide provides comprehensive instructions for contributors and maintainers on how to update and maintain the project effectively.
 
 ## 📋 Table of Contents
