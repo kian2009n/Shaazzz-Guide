@@ -6,14 +6,16 @@ Welcome to the Shaazzz-Guide project maintenance documentation. This guide provi
 
 ## 📋 Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Project Structure](#project-structure)
-3. [Adding Problems to the Problem Sheet](#adding-problems-to-the-problem-sheet)
-4. [Creating Blog Posts](#creating-blog-posts)
-5. [Update Process](#update-process)
-6. [Configuration Files](#configuration-files)
-7. [Deployment](#deployment)
-8. [Important Guidelines](#important-guidelines)
+1. [Project Overview](#-project-overview)
+2. [Project Structure](#-project-structure)
+3. [Adding Problems to the Problem Sheet](#-adding-problems-to-the-problem-sheet)
+4. [Creating Blog Posts](#️-creating-blog-posts)
+5. [Update Process](#-update-process)
+6. [Configuration Files](#️-configuration-files)
+7. [Deployment](#-deployment)
+8. [Important Guidelines](#️-important-guidelines)
+9. [Contributing](#-contributing)
+10. [Support](#-support)
 
 ## 🎯 Project Overview
 
