@@ -1,4 +1,4 @@
-# شازzzگاید (Shaazzz Guide)
+# شازززگاید (Shaazzz Guide)
 
 > 🤖 **AI-Generated**: This documentation was made with AI help. Feel free to edit and improve it :)
 
