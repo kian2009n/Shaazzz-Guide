@@ -1,0 +1,56 @@
+.md-typeset table:not([class]) td {
+  vertical-align: middle !important;
+}
+
+.blog-title {
+  text-align: center;
+  color: var(--md-typeset-color) !important;
+}
+
+@keyframes blur-effect-fadein {
+  from {filter: blur(0px);}
+  to {filter: blur(5px);}
+}
+
+@keyframes blur-effect-fadeout {
+  from {filter: blur(5px);}
+  to {filter: blur(0px);}
+}
+
+.blur-spoiler {
+  animation-name: blur-effect-fadein;
+  animation-duration: 300ms;
+  filter: blur(5px);
+}
+
+.blur-spoiler:hover {
+  animation-name: blur-effect-fadeout;
+  animation-duration: 300ms;
+  filter: blur(0px);
+}
+
+.solved-row > * {
+  text-decoration: line-through;
+}
+
+.handel-input {
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: var(--md-footer-fg-color--lighter);
+  height: 2em;
+  font-size: 0.9em;
+  text-align: center;
+  padding-bottom: 0.9em;
+}
+
+.cf-handel-button {
+  background-color: transparent;
+}
+
+.cf-handel-form {
+  text-align: center;
+}
+
+.md-typeset__scrollwrap {
+  text-align: center;
+}
