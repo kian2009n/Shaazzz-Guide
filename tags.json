@@ -55,6 +55,10 @@
         "DFS": {
             "path": "DFS.md",
             "blog_title": "DFS"
+        },
+        "sieve": {
+            "path": "sieve.md",
+            "blog_title": "غربال و تجزیه اعداد"
         }
     },
     "Level3": {},

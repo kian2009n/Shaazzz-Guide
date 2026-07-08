@@ -245,4 +245,4 @@ cf,The Human Equation,https://codeforces.com/problemset/problem/1775/E,greedy,21
 cf,DeadLee,https://codeforces.com/contest/1369/problem/E,greedy,2400
 cf,Pokémon Army (hard version),https://codeforces.com/contest/1420/problem/C2,greedy | dp | segment,2100
 cf,secrets,https://codeforces.com/problemset/problem/333/A,greedy,1600
-cf,Chemical table,https://codeforces.com/problemset/problem/1012/B,DFS,1900
+cf,Chemical table,https://codeforces.com/problemset/problem/1012/B,DFS | sieve,1900

@@ -132,6 +132,7 @@ nav:
     - الگوریتم های حریصانه: Level1/greedy.md
   - سطح ۲:
     - DFS: Level2/DFS.md
+    - غربال و تجزیه اعداد: Level2/sieve.md
   - سطح ۳:
     - به زودی...: coming_soon.md
   - سطح ۴:
