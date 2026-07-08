@@ -2251,6 +2251,15 @@
                 "greedy"
             ],
             "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Chemical table",
+            "url": "https://codeforces.com/problemset/problem/1012/B",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "1900"
         }
     ]
 }
