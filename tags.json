@@ -52,13 +52,73 @@
     },
 
     "Level2": {
-        "DFS": {
-            "path": "DFS.md",
-            "blog_title": "DFS"
+        "ds_basic": {
+            "path": "ds_basic.md",
+            "blog_title": "داده ساختار های مقدماتی"
+        },
+        "stack": {
+            "path": "stack.md",
+            "blog_title": "کاربرد های مختلف stack در سوالات"
+        },
+        "divisors_prime": {
+            "path": "divisors_prime.md",
+            "blog_title": "تعداد مقسوم علیه ها و تشخیص اول بودن یک عدد"
+        },
+        "gcd": {
+            "path": "gcd.md",
+            "blog_title": "بزرگ ترین مقسوم علیه مشترک(ب.م.م)"
         },
         "sieve": {
             "path": "sieve.md",
             "blog_title": "غربال و تجزیه اعداد"
+        },
+        "Euler'sTotientFunction": {
+            "path": "Euler'sTotientFunction.md",
+            "blog_title": "تابع فی اویلر"
+        },
+        "power": {
+            "path": "power.md",
+            "blog_title": "محاسبه توان پیمانه دار"
+        },
+        "fermat": {
+            "path": "fermat.md",
+            "blog_title": "قضیه کوچک فرما و وارون ضربی"
+        },
+        "number_theory_basic": {
+            "path": "number_theory_basic.md",
+            "blog_title": "سوالات نظریه اعداد مقدماتی"
+        },
+        "combinatorics": {
+            "path": "combinatorics.md",
+            "blog_title": "انتخاب و سوالات ترکیبیاتی"
+        },
+        "dp": {
+            "path": "dp.md",
+            "blog_title": "برنامه نویسی پویا(Dynamic Programming)"
+        },
+        "knapsack": {
+            "path": "knapsack.md",
+            "blog_title": "knapsack dp(سوال کوله پشتی)"
+        },
+        "lis_lcs": {
+            "path": "lis_lcs.md",
+            "blog_title": "LIS و LCS"
+        },
+        "dplr": {
+            "path": "dplr.md",
+            "blog_title": "dp بازه ای"
+        },
+        "dfs": {
+            "path": "dfs.md",
+            "blog_title": "DFS"
+        },
+        "digraph": {
+            "path": "digraph.md",
+            "blog_title": "گراف جهتدار(Digraph)"
+        },
+        "topol_sort": {
+            "path": "topol_sort.md",
+            "blog_title": "DAG و Topological sort"
         }
     },
     "Level3": {},

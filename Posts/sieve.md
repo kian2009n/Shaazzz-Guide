@@ -1,4 +1,4 @@
-# غربال اراتستن (Sieve of Eratosthenes)
+## غربال اراتستن (Sieve of Eratosthenes)
 
 ## غربال اراتستن
 

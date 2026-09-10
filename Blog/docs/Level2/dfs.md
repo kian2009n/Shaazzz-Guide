@@ -3,7 +3,9 @@ hide:
   - footer
 comments: true
 ---
+# DFS
 
+## توضیحات 
 ## نحوه ذخیره گراف :‌
 ما برای نگه داشتن یال ها به سه صورت کلی ممکن است یال ها را نگه داریم که هر کدام از این راه ها کاربرد های خود را داشته اند.
 ### روش اول :‌ پرکاربرد ترین
@@ -55,7 +57,7 @@ int main(){
 }
 
 ```
-# dfs
+## dfs
 
 ## توضیحات 
 جست‌و‌جوی عمق‌اول که به $DFS$
@@ -320,7 +322,7 @@ $(h[u] = h[v] - k) and (st[u] <= st[v])$
 پس درون زیر درخت $v$ خواهد بود پس بک ادج خواهد بود نه کراس ادج 
 
 این لم مهم است زیرا بعضی اوقات برای حل سوالات از این لم کمک میگیریم.
-#  قطر درخت 
+##  قطر درخت 
 به بلند ترین مسیر درخت قطر گفته میشود (‌به طور کلی فاصله به معنای تعداد یال های مسیر بین دو راس گفته میشود).
 ## پیدا کردن قطر درخت
 طول بلند ترین مسیر در درخت را چاپ کنید و دو راسی که این طول بین انها است را بگویید (‌اگر یکتا نبود هر کدام را چاپ کنید قبول است)‌
@@ -330,7 +332,7 @@ $(h[u] = h[v] - k) and (st[u] <= st[v])$
 
  لینک راه : https://gtoi.shaazzz.ir/book/2/6.html
 
-# تعریف یال برشی و راس برشی
+## تعریف یال برشی و راس برشی
 یال برشی : به یالی گفته میشود که اگر ما یال را از گراف حذف کنیم تعداد مولفه های همبندی گراف افزایش یابد .
 راس برشی  :‌به راسی گفته میشود که اگر ما راس را از گراف حذف کنیم تعداد مولفه همبندی افزایش یابد.
 
@@ -464,51 +466,48 @@ int  main(){
 
 1. حالت ریشه : باید راس های درخت dfs کمتر مساوی ۱ باشد.
 2. بقیه راس ها به جز ریشه :‌ هر زیر درخت باید حداقل یک یال به بالا راس v داشته باشد در غیر اینصورت ch یک میشود.
-
- 
- 
-
-# سوال ها 
+## سوال ها 
 ??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
+
     سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
 </form> | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
-|[Ice Skating](https://codeforces.com/problemset/problem/217/A){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Graph Without Long Directed Paths](https://codeforces.com/contest/1144/problem/F){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
-|[Vasya and a tree](https://codeforces.com/contest/1076/problem/E){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[MinOr Tree](https://codeforces.com/contest/1624/problem/G){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Chemical table](https://codeforces.com/problemset/problem/1012/B){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Book of Evil](https://codeforces.com/contest/337/problem/d){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Ant on the Tree](https://codeforces.com/problemset/problem/29/D?locale=en){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Number of Simple Paths](https://codeforces.com/contest/1454/problem/E){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Computer Network](https://codeforces.com/problemsets/acmsguru/problem/99999/149){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
-|[Wormhole Sort](http://www.usaco.org/index.php?page=viewproblem2&cpid=992v){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
-|[Where's Bessie?](http://www.usaco.org/index.php?page=viewproblem2&cpid=740){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
-|[Minimal Diameter Forest](https://codeforces.com/contest/1092/problem/E){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Milk Visits](http://www.usaco.org/index.php?page=viewproblem2&cpid=968){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
-|[Construct Highway](https://atcoder.jp/contests/abc239/tasks/abc239_f){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
-|[Mahmoud and a xor trip](https://codeforces.com/problemset/problem/766/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Blood Cousins](https://codeforces.com/problemset/problem/208/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Leha and another game about graph](https://codeforces.com/contest/841/problem/D){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Bertown roads](https://codeforces.com/contest/118/problem/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Graph](https://codeforces.com/contest/1387/problem/A){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Little Pony and Summer Sun Celebration](https://codeforces.com/problemset/problem/453/C){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Super M](https://codeforces.com/contest/592/problem/d){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Cycling Coloring](https://codeforces.com/problemset/problem/183/C){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|<div class="blur-spoiler">[کپی پیست](https://quera.org/problemset/3017/){:target="_blank"}</div>|2200|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-quera: [المپیادی](https://codeforces.org){:target="_blank"}|
-|[Wizard's Tour](https://codeforces.com/problemset/problem/858/F){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Graph Cutting](https://codeforces.com/contest/405/problem/E){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Pursuit for artifacts](https://codeforces.com/contest/652/problem/E){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Blood Cousins Return](https://codeforces.com/problemset/problem/246/E){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Challenging Tic-Tac-Toe](https://codeforces.com/problemsets/acmsguru/problem/99999/289){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
-|[Road Problem](https://codeforces.com/contest/45/problem/h){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Guard Towers](https://codeforces.com/problemset/problem/85/E){:target="_blank"}|2600|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Johnny Solving](https://codeforces.com/problemset/problem/1103/C){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Fairy](https://codeforces.com/contest/19/problem/E){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Prison](https://oj.uz/problem/view/BOI21_prison){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li> <li>dsu</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|
-|[AquaMoon and Permutations](https://codeforces.com/contest/1545/problem/C){:target="_blank"}|2800|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[T-covering](https://oj.uz/problem/view/eJOI19_covering){:target="_blank"}|2900|<details> <summary>Spoiler</summary> <ul><li>[dfs](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|
+|[Ice Skating](https://codeforces.com/problemset/problem/217/A){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Graph Without Long Directed Paths](https://codeforces.com/contest/1144/problem/F){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
+|[Vasya and a tree](https://codeforces.com/contest/1076/problem/E){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[MinOr Tree](https://codeforces.com/contest/1624/problem/G){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Chemical table](https://codeforces.com/problemset/problem/1012/B){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Book of Evil](https://codeforces.com/contest/337/problem/d){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Ant on the Tree](https://codeforces.com/problemset/problem/29/D?locale=en){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Number of Simple Paths](https://codeforces.com/contest/1454/problem/E){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Computer Network](https://codeforces.com/problemsets/acmsguru/problem/99999/149){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
+|[Wormhole Sort](http://www.usaco.org/index.php?page=viewproblem2&cpid=992v){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
+|[Where's Bessie?](http://www.usaco.org/index.php?page=viewproblem2&cpid=740){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
+|[Minimal Diameter Forest](https://codeforces.com/contest/1092/problem/E){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Milk Visits](http://www.usaco.org/index.php?page=viewproblem2&cpid=968){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
+|[Construct Highway](https://atcoder.jp/contests/abc239/tasks/abc239_f){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
+|[Mahmoud and a xor trip](https://codeforces.com/problemset/problem/766/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Blood Cousins](https://codeforces.com/problemset/problem/208/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Leha and another game about graph](https://codeforces.com/contest/841/problem/D){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Bertown roads](https://codeforces.com/contest/118/problem/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Graph](https://codeforces.com/contest/1387/problem/A){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Little Pony and Summer Sun Celebration](https://codeforces.com/problemset/problem/453/C){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Super M](https://codeforces.com/contest/592/problem/d){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Cycling Coloring](https://codeforces.com/problemset/problem/183/C){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|<div class="blur-spoiler">[کپی پیست](https://quera.org/problemset/3017/){:target="_blank"}</div>|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-quera: [المپیادی](https://codeforces.org){:target="_blank"}|
+|[Wizard's Tour](https://codeforces.com/problemset/problem/858/F){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Graph Cutting](https://codeforces.com/contest/405/problem/E){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Pursuit for artifacts](https://codeforces.com/contest/652/problem/E){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Blood Cousins Return](https://codeforces.com/problemset/problem/246/E){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Challenging Tic-Tac-Toe](https://codeforces.com/problemsets/acmsguru/problem/99999/289){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
+|[Road Problem](https://codeforces.com/contest/45/problem/h){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Guard Towers](https://codeforces.com/problemset/problem/85/E){:target="_blank"}|2600|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Johnny Solving](https://codeforces.com/problemset/problem/1103/C){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Fairy](https://codeforces.com/contest/19/problem/E){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Prison](https://oj.uz/problem/view/BOI21_prison){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li> <li>dsu</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|
+|[AquaMoon and Permutations](https://codeforces.com/contest/1545/problem/C){:target="_blank"}|2800|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[T-covering](https://oj.uz/problem/view/eJOI19_covering){:target="_blank"}|2900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|

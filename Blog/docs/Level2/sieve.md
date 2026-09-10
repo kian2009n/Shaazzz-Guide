@@ -5,7 +5,7 @@ comments: true
 ---
 # غربال و تجزیه اعداد
 
-# غربال اراتستن (Sieve of Eratosthenes)
+## غربال اراتستن (Sieve of Eratosthenes)
 
 ## غربال اراتستن
 

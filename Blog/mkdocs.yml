@@ -131,8 +131,23 @@ nav:
     - پریفیکس سام: Level1/prefix_sum.md
     - الگوریتم های حریصانه: Level1/greedy.md
   - سطح ۲:
-    - DFS: Level2/DFS.md
+    - داده ساختار های مقدماتی: Level2/ds_basic.md
+    - کاربرد های مختلف stack در سوالات: Level2/stack.md
+    - تعداد مقسوم علیه ها و تشخیص اول بودن یک عدد: Level2/divisors_prime.md
+    - بزرگ ترین مقسوم علیه مشترک(ب.م.م): Level2/gcd.md
     - غربال و تجزیه اعداد: Level2/sieve.md
+    - تابع فی اویلر: Level2/Euler'sTotientFunction.md
+    - محاسبه توان پیمانه دار: Level2/power.md
+    - قضیه کوچک فرما و وارون ضربی: Level2/fermat.md
+    - سوالات نظریه اعداد مقدماتی: Level2/number_theory_basic.md
+    - انتخاب و سوالات ترکیبیاتی: Level2/combinatorics.md
+    - برنامه نویسی پویا(Dynamic Programming): Level2/dp.md
+    - knapsack dp(سوال کوله پشتی): Level2/knapsack.md
+    - LIS و LCS: Level2/lis_lcs.md
+    - dp بازه ای: Level2/dplr.md
+    - DFS: Level2/dfs.md
+    - گراف جهتدار(Digraph): Level2/digraph.md
+    - DAG و Topological sort: Level2/topol_sort.md
   - سطح ۳:
     - به زودی...: coming_soon.md
   - سطح ۴:
