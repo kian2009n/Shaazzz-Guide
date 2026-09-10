@@ -66,7 +66,7 @@
         },
         "gcd": {
             "path": "gcd.md",
-            "blog_title": "بزرگ ترین مقسوم علیه مشترک(ب.م.م)"
+            "blog_title": "بزرگ ترین مقسوم علیه مشترک (ب.م.م)"
         },
         "sieve": {
             "path": "sieve.md",
@@ -84,21 +84,17 @@
             "path": "fermat.md",
             "blog_title": "قضیه کوچک فرما و وارون ضربی"
         },
-        "number_theory_basic": {
-            "path": "number_theory_basic.md",
-            "blog_title": "سوالات نظریه اعداد مقدماتی"
-        },
         "combinatorics": {
             "path": "combinatorics.md",
             "blog_title": "انتخاب و سوالات ترکیبیاتی"
         },
         "dp": {
             "path": "dp.md",
-            "blog_title": "برنامه نویسی پویا(Dynamic Programming)"
+            "blog_title": "برنامه نویسی پویا (Dynamic Programming)"
         },
         "knapsack": {
             "path": "knapsack.md",
-            "blog_title": "knapsack dp(سوال کوله پشتی)"
+            "blog_title": "knapsack dp (سوال کوله پشتی)"
         },
         "lis_lcs": {
             "path": "lis_lcs.md",
@@ -114,7 +110,7 @@
         },
         "digraph": {
             "path": "digraph.md",
-            "blog_title": "گراف جهتدار(Digraph)"
+            "blog_title": "گراف جهتدار (Digraph)"
         },
         "topol_sort": {
             "path": "topol_sort.md",

@@ -3,7 +3,7 @@ hide:
   - footer
 comments: true
 ---
-# برنامه نویسی پویا(Dynamic Programming)
+# برنامه نویسی پویا (Dynamic Programming)
 
 ## توضیحات 
 ## برنامه‌نویسی پویا (Dynamic Programming)
@@ -447,4 +447,4 @@ $$
   <input type="submit" value="Submit" class="md-button cf-handel-button">
 </form> | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
-|[Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[الگوریتم های حریصانه](/Level1/greedy){:target="_blank"}</li> <li>[برنامه نویسی پویا(Dynamic Programming)](/Level2/dp){:target="_blank"}</li> <li>segment</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[الگوریتم های حریصانه](/Level1/greedy){:target="_blank"}</li> <li>[برنامه نویسی پویا (Dynamic Programming)](/Level2/dp){:target="_blank"}</li> <li>segment</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

@@ -5,6 +5,7 @@ comments: true
 ---
 # قضیه کوچک فرما و وارون ضربی
 
+## توضیحات 
 ## قضیه کوچک فرما
 [قضیه کوچک فرما](https://fa.wikipedia.org/wiki/%D9%82%D8%B6%DB%8C%D9%87_%DA%A9%D9%88%DA%86%DA%A9_%D9%81%D8%B1%D9%85%D8%A7) بیان میکند که اگر $p$ عددی اول باشد و $a$ عددی صحیح باشد که بر $p$ بخشپذیر نیست.
 
@@ -103,3 +104,13 @@ $$ x/y \equiv x*y^{-1} \equiv x*y^{p-2} \pmod{p} $$
 ??? مثال
     $$ 10/2 \equiv 10*2^5 \equiv 320 \equiv 5 \pmod{7} $$
 
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Modular Inverse](https://www.geeksforgeeks.org/problems/modular-multiplicative-inverse-1587115620/1){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[قضیه کوچک فرما و وارون ضربی](/Level2/fermat){:target="_blank"}</li></ul> </details>|:judge-gfg: [GeeksForGeeks](https://www.geeksforgeeks.org/){:target="_blank"}|
+|[Two Arrays](https://codeforces.com/problemset/problem/1288/C){:target="_blank"}|1600|<details> <summary>Spoiler</summary> <ul><li>[قضیه کوچک فرما و وارون ضربی](/Level2/fermat){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Beautiful Numbers](https://codeforces.com/problemset/problem/300/C){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[قضیه کوچک فرما و وارون ضربی](/Level2/fermat){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Inversion Expectation](https://codeforces.com/problemset/problem/1096/F){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[قضیه کوچک فرما و وارون ضربی](/Level2/fermat){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

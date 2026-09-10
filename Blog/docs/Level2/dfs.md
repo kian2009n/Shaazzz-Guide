@@ -62,7 +62,7 @@ int main(){
 ## توضیحات 
 جست‌و‌جوی عمق‌اول که به $DFS$
 (DepthFirstSearch) معروف است در واقع الگوریتمی برای پیمایش گراف است. شاید با کمی شک بتوان گفت که پرکاربرد‌ترین الگوریتم در گراف همین الگوریتم است چراکه هم کد آن کم است، هم هزینه زمانی و حافظه‌ای آن کم است، هم برای اکثر سوال‌های گراف نیاز به پیمایش است.
-## الگورتیم
+## الگوریتم
 الگوریتم به این شکل است که ابتدا یک رأس مانند $v$ را انتخاب می‌کنیم و آن را ریشه می‌نامیم. ریشه را علامت‌گذاری می‌کنیم. سپس یک رأس دل خواه علامت نخورده‌ی مجاور با $v$
  را انتخاب می‌کنیم و آن را $u$
  می‌نامیم. $u$
@@ -83,8 +83,8 @@ int main(){
  جست‌و‌جوی اول‌عمق به تنهایی کاربرد خاصی ندارد و در نتیجه محاسباتی که در کنار آن انجام میشود باعث اهمیت آن میشود. به طور کلی این محاسبات را میتوان به دو دسته پس‌ترتیب و پیش‌ترتیب تقسیم کرد. محاسبات پیش‌ترتیب برای هر رأسی هنگام اولین ورود به آن و محاسبات پس‌ترتیب هنگام آخرین خروج از آن انجام میشود.
 
 <figure markdown>
-  ![dfs](https://opedia.ir/_media/%D8%A2%D9%85%D9%88%D8%B2%D8%B4/%D8%A7%D9%84%DA%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%85/dfs-all_in_one_path.jpg?w=200&tok=782f39)
-  <figcaption> الگورتیم dfs</figcaption>
+  ![dfs](https://opedia.ir/_media/learn/algorithms/dfs-all_in_one_path.jpg?cache=)
+  <figcaption> الگوریتم dfs</figcaption>
 </figure>
 
 ### ویژگی ها
@@ -302,13 +302,13 @@ $(h[u] = h[v] - k) and (st[u] <= st[v])$
 ## انواع یال
 درخت جست‌و‌جوی عمق‌اول در واقع یک درخت ریشه‌دار است که ریشه آن همان رأسی است که جست‌و‌جو از آن آغاز شده است. این درخت شامل تمام یال‌هایی است که الگوریتم روی آن‌ها حرکت کرده و و پدر هر راسی، راسی است که از آن وارد این راس شده‌ایم. پس واضح است که برخی از یال‌ها در درخت نمی‌آیند و همچنین این درخت ریشه‌دار دور ندارد چون هر رأسی تنها یک پدر دارد! به طور کلی یال‌های گراف اصلی را میتوان به ۴ دسته تقسیم کرد:
 
-1. یال‌‌های درخت ساخته شده (یال درختی یاTree Edge)
+1. یال‌‌های درخت ساخته شده (یال درختی یا Tree Edge)
 2. از یک راس به جدش (یال عقب‌رو یا Back Edge)
 3. از یک راس به زیر درختش (یال جلو‌رو یا Forward Edge)
 4. هیچ کدام از سه مورد بالا (یال میانی یا Corss Edge)
 در گراف‌های بدون‌جهت دسته دو و سه یکی هستند زیرا یال‌ها جهتی ندارند و یک یال جلورو حتما یک یال عقب‌رو است و برعکس. 
 <figure markdown>
-  ![dfs3](https://opedia.ir/_media/%D8%A2%D9%85%D9%88%D8%B2%D8%B4/%D8%A7%D9%84%DA%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%85/270px-tree_edges.svg.png?w=300&tok=ca39b1)
+  ![dfs3](https://opedia.ir/_media/learn/algorithms/270px-tree_edges.svg.png?w=300&tok=d0da4b)
   <figcaption></figcaption>
 </figure>
 
@@ -466,6 +466,114 @@ int  main(){
 
 1. حالت ریشه : باید راس های درخت dfs کمتر مساوی ۱ باشد.
 2. بقیه راس ها به جز ریشه :‌ هر زیر درخت باید حداقل یک یال به بالا راس v داشته باشد در غیر اینصورت ch یک میشود.
+
+## مرکز درخت (Center)
+مرکز درخت رأسی است که بیشترین فاصله‌اش از سایر راس‌ها کمینه باشد. به بیان دیگر اگر برای هر راس $v$ بیشترین فاصله‌ی آن از تمام راس‌های دیگر را در نظر بگیریم، مرکز درخت رأسی است که این مقدار را کمینه می‌کند.
+
+درخت می‌تواند یک یا دو مرکز داشته باشد.
+
+### پیدا کردن مرکز درخت
+برای پیدا کردن مرکز درخت می‌توان از قطر درخت استفاده کرد. اگر یک قطر درخت را از یک سر آن تا سر دیگر در نظر بگیریم، مرکز درخت دقیقا رأس وسط این مسیر است.
+
+اگر طول قطر زوج باشد، یک مرکز داریم و اگر طول قطر فرد باشد، دو مرکز داریم.
+
+برای پیدا کردن قطر همان روشی که در بخش قطر درخت گفتیم را اجرا می‌کنیم. سپس از یکی از سرهای قطر، مسیر قطر را به دست می‌آوریم و رأس یا رأس‌های وسط این مسیر را به عنوان مرکز چاپ می‌کنیم.
+
+### پیچیدگی
+پیدا کردن قطر و مسیر آن در $O(n)$ انجام می‌شود، پس پیدا کردن مرکز نیز $O(n)$ زمان می‌برد.
+
+!!! info "نکته"
+    مرکز با **مرکز هندسی** یا میانگین مختصات راس‌ها ارتباطی ندارد. منظور از Center در درخت، رأسی است که بیشترین فاصله‌اش از بقیه راس‌ها کمینه باشد.
+
+## سنتروید درخت (Centroid)
+سنتروید درخت رأسی است که با حذف آن، اندازه‌ی هر یک از مولفه‌های باقی‌مانده حداکثر نصف تعداد راس‌های درخت باشد.
+
+به بیان دقیق‌تر، اگر رأس $v$ را حذف کنیم، برای هر یک از قسمت‌های باقی‌مانده باید داشته باشیم:
+
+$$
+size(component) \le \frac{n}{2}
+$$
+
+هر درخت حداقل یک سنتروید دارد و یک درخت می‌تواند یک یا دو سنتروید داشته باشد.
+
+### ایده پیدا کردن سنتروید
+ابتدا اندازه‌ی زیردرخت هر رأس را با یک DFS حساب می‌کنیم. اگر درخت را ریشه‌دار در نظر بگیریم، پس از حذف رأس $v$ دو نوع قسمت به وجود می‌آید:
+
+1. زیردرخت هر کدام از بچه‌های $v$ که اندازه‌ی آن‌ها برابر `sz[u]` است.
+2. قسمتی که شامل پدر $v$ و بقیه‌ی درخت است که اندازه‌ی آن برابر `n - sz[v]` است.
+
+پس $v$ سنتروید است اگر و تنها اگر برای تمام بچه‌های آن:
+
+$$
+ sz[u] \le \frac{n}{2}
+$$
+
+و همچنین:
+
+$$
+ n - sz[v] \le \frac{n}{2}
+$$
+
+باشد.
+
+### کد پیدا کردن سنتروید
+```cpp linenums="1"
+vector <int> G[maxn] ;
+int sz[maxn] ;
+
+void dfs(int v , int p){
+    sz[v] = 1 ;
+    for(int u : G[v]){
+        if(u == p)continue ;
+        dfs(u,v) ;
+        sz[v] += sz[u] ;
+    }
+}
+
+int main(){
+    int n ;
+    cin >> n ;
+    for(int i = 1 ; i < n ; i++){
+        int v , u ;
+        cin >> v >> u ;
+        G[v].pb(u) ;
+        G[u].pb(v) ;
+    }
+
+    dfs(1,-1) ;
+
+    for(int v = 1 ; v <= n ; v++){
+        bool ok = 1 ;
+        for(int u : G[v]){
+            if(sz[u] < sz[v]){
+                if(sz[u] > n / 2)ok = 0 ;
+            }
+        }
+
+        if(n - sz[v] > n / 2)ok = 0 ;
+
+        if(ok)cout << v << " " ;
+    }
+}
+```
+
+### پیچیدگی
+محاسبه‌ی اندازه‌ی تمام زیردرخت‌ها با DFS در $O(n)$ انجام می‌شود. سپس برای هر رأس یال‌های متصل به آن را بررسی می‌کنیم و در مجموع هر یال تعداد محدودی بار بررسی می‌شود. بنابراین کل زمان $O(n)$ است.
+
+!!! info "نکته"
+    تفاوت Center و Centroid را به خاطر داشته باشید. **Center** بر اساس فاصله‌ها تعریف می‌شود و **Centroid** بر اساس اندازه‌ی قسمت‌هایی که بعد از حذف رأس باقی می‌مانند.
+
+### موضوعات این بخش
+* DFS و درخت DFS
+* استارتینگ تایم و فینیش تایم
+* زیر درخت و جدها
+* انواع یال
+* قطر درخت
+* یال برشی و راس برشی
+* Center درخت
+* Centroid درخت
+
+
 ## سوال ها 
 ??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
 
@@ -476,12 +584,10 @@ int  main(){
 </form> | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[Ice Skating](https://codeforces.com/problemset/problem/217/A){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Graph Without Long Directed Paths](https://codeforces.com/contest/1144/problem/F){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
 |[Vasya and a tree](https://codeforces.com/contest/1076/problem/E){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[MinOr Tree](https://codeforces.com/contest/1624/problem/G){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Chemical table](https://codeforces.com/problemset/problem/1012/B){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Book of Evil](https://codeforces.com/contest/337/problem/d){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Ant on the Tree](https://codeforces.com/problemset/problem/29/D?locale=en){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Number of Simple Paths](https://codeforces.com/contest/1454/problem/E){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Computer Network](https://codeforces.com/problemsets/acmsguru/problem/99999/149){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
@@ -495,17 +601,15 @@ int  main(){
 |[Leha and another game about graph](https://codeforces.com/contest/841/problem/D){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Bertown roads](https://codeforces.com/contest/118/problem/E){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Graph](https://codeforces.com/contest/1387/problem/A){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Guard Towers](https://codeforces.com/problemset/problem/85/E){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Little Pony and Summer Sun Celebration](https://codeforces.com/problemset/problem/453/C){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Super M](https://codeforces.com/contest/592/problem/d){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Cycling Coloring](https://codeforces.com/problemset/problem/183/C){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|<div class="blur-spoiler">[کپی پیست](https://quera.org/problemset/3017/){:target="_blank"}</div>|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-quera: [المپیادی](https://codeforces.org){:target="_blank"}|
+|<div class="blur-spoiler">[کپی پیست](https://quera.org/problemset/3017/){:target="_blank"}</div>|2200|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-quera: [المپیادی](https://quera.org){:target="_blank"}|
 |[Wizard's Tour](https://codeforces.com/problemset/problem/858/F){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Graph Cutting](https://codeforces.com/contest/405/problem/E){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Pursuit for artifacts](https://codeforces.com/contest/652/problem/E){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Blood Cousins Return](https://codeforces.com/problemset/problem/246/E){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Challenging Tic-Tac-Toe](https://codeforces.com/problemsets/acmsguru/problem/99999/289){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
 |[Road Problem](https://codeforces.com/contest/45/problem/h){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Guard Towers](https://codeforces.com/problemset/problem/85/E){:target="_blank"}|2600|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Johnny Solving](https://codeforces.com/problemset/problem/1103/C){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Fairy](https://codeforces.com/contest/19/problem/E){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Prison](https://oj.uz/problem/view/BOI21_prison){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[DFS](/Level2/dfs){:target="_blank"}</li> <li>dsu</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|

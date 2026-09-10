@@ -362,13 +362,13 @@ $$
 
 در این فصل با مفهوم **گراف بدون دور جهت‌دار (DAG)** آشنا شدیم و دیدیم که وجود نداشتن دور چه ویژگی‌های مهمی را در اختیار ما قرار می‌دهد. سپس مفهوم **ترتیب توپولوژیک** را معرفی کردیم و دو روش مختلف برای محاسبه‌ی آن، یعنی استفاده از **DFS** و **الگوریتم Kahn** را به همراه اثبات درستی و تحلیل زمانی بررسی کردیم. همچنین یاد گرفتیم که چگونه می‌توان وجود دور را در یک گراف جهت‌دار تشخیص داد و در پایان نیز یکی از مهم‌ترین کاربردهای ترتیب توپولوژیک، یعنی **برنامه‌نویسی پویا روی DAG** را مشاهده کردیم. در ادامه‌ی مباحث گراف، بارها از ترتیب توپولوژیک و ویژگی‌های DAG برای طراحی الگوریتم‌های سریع‌تر استفاده خواهیم کرد.
 ## سوال ها 
-??? warning "نیاز به عضویت در گروه شاززز!"
-
-    برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
-
 ??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
 
     سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!
+
+??? warning "نیاز به عضویت در گروه شاززز!"
+
+    برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
@@ -381,7 +381,7 @@ $$
 |[Fox And Names](https://codeforces.com/problemset/problem/510/C){:target="_blank"}|2100|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Count Seconds](https://codeforces.com/contest/1704/problem/E){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Course Schedule II](https://cses.fi/problemset/task/1757){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
-|<div class="blur-spoiler">[توپولو‌های به هم چسبیده](https://quera.org/problemset/9857/){:target="_blank"}</div>|2400|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-quera: [المپیادی](https://codeforces.org){:target="_blank"}|
+|<div class="blur-spoiler">[توپولو‌های به هم چسبیده](https://quera.org/problemset/9857/){:target="_blank"}</div>|2400|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-quera: [المپیادی](https://quera.org){:target="_blank"}|
 |[Plan of lectures](https://codeforces.com/contest/1463/problem/E){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Unordered Swaps](https://codeforces.com/contest/1682/problem/E){:target="_blank"}|2600|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
 |[Upgrading Cities](https://codeforces.com/problemset/problem/1062/F){:target="_blank"}|2900|<details> <summary>Spoiler</summary> <ul><li>[DAG و Topological sort](/Level2/topol_sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

@@ -5,6 +5,7 @@ comments: true
 ---
 # محاسبه توان پیمانه دار
 
+## توضیحات 
 ما در بسیاری از مسائل  خصوصا در مسائل شمارشی نیازمندیم که توان را سریع و با مرتبه زمانی خوب محسابه کنیم ! در اینجا می‌خواهیم   الگوریتمی ارائه دهیم که در  $O(log(n))$  برای ما عملیات توان را انجام دهد. معمولا چون این عدد مقدار بزرگی است، آن را باقی مانده بر یک عدد ثابت $mod$ پیدا می‌کنیم.
 
 ### الگوریتم
@@ -113,3 +114,11 @@ int main() {
 خیلی وقت ها نیازمند آن هستیم که به کمک قضیه فرما یک تقسیم را باقی مانده بر یک عدد $mod$ انجام دهیم.
 برای مثال اگر یک عدد $a$ باشد و بخواهیم $1/a$ را به دست بیاریم به پیمانه ی $mod$ باید $a^{mod-2}$ را به دست آوریم که اگر $mod$ عددی بزرگ باشد نیاز به یک الگوریتم سریع تر از $O(mod)$ داریم که می‌توان از روش بالا استفاده کرد. همچنین از این روش برای به توان رساندن ماتریس ها هم می‌توان کمک گرفت.
 
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Count Good Numbers](https://leetcode.com/problems/count-good-numbers/description/){:target="_blank"}|1500|<details> <summary>Spoiler</summary> <ul><li>[محاسبه توان پیمانه دار](/Level2/power){:target="_blank"}</li></ul> </details>|:judge-leetcode: [LeetCode](https://leetcode.com/){:target="_blank"}|
+|[Parking Lot](https://codeforces.com/problemset/problem/630/I){:target="_blank"}|1700|<details> <summary>Spoiler</summary> <ul><li>[محاسبه توان پیمانه دار](/Level2/power){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

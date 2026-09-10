@@ -5,6 +5,7 @@ comments: true
 ---
 # LIS و LCS
 
+## توضیحات 
 ## توضیحات
 ### LIS
 
@@ -239,3 +240,18 @@ int main() {
 1. اینکه $dp[i][j]$ از روی کدام آپدیت می شود را در $par[i][j]$ نگه می داریم
 2. اعضای $s$ در دنباله جواب را در این نگه می داریم
 3. اعضای $t$ در دنباله جواب را در این نگه می داریم
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Towers](https://cses.fi/problemset/task/1073){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[North-East](https://codeforces.com/problemsets/acmsguru/problem/99999/521){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
+|[Consecutive Subsequence](https://codeforces.com/contest/977/problem/F){:target="_blank"}|1400|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[LCS on Permutations](https://codeforces.com/gym/102951/problem/C){:target="_blank"}|1500|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Gym](https://codeforces.com/gyms){:target="_blank"}|
+|[Cow Jog](https://usaco.org/index.php?page=viewproblem2&cpid=496){:target="_blank"}|1700|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
+|[ Korney Korneevich and XOR (easy version)](https://codeforces.com/contest/1582/problem/F1){:target="_blank"}|1700|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[LCIS](https://codeforces.com/contest/10/problem/D){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Tourist](https://codeforces.com/contest/76/problem/F){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Global Warming](https://oj.uz/problem/view/CEOI18_glo){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[LIS و LCS](/Level2/lis_lcs){:target="_blank"}</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|

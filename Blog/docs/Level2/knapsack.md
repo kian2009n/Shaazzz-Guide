@@ -3,8 +3,9 @@ hide:
   - footer
 comments: true
 ---
-# knapsack dp(سوال کوله پشتی)
+# knapsack dp (سوال کوله پشتی)
 
+## توضیحات 
 ## مسئله‌ی کوله پشتی
 
 در مسئله‌ی کوله پشتی (‌‌knapsack) شما یک کوله پشتی دارید که حجم مشخصی دارد. علاوه بر کوله پشتی یک سری وسیله هم دارید و حجم هرکدام نیز به شما داده شده است. شما می‌خواهید طوری تعدادی از این وسیله‌ها را در کوله پشتی قرار دهید که بیشترین فضای ممکن از کوله پشتی اشغال شود. (فرض کنید شکل وسیله‌ها طوری است که فضای خالی میان آن‌ها نمی‌ماند.)
@@ -198,3 +199,14 @@ int main()
 ## منابع بیشتر
 
 + [knapsack](https://cp-algorithms.com/dynamic_programming/knapsack.html)
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[knapsack dp (سوال کوله پشتی)](/Level2/knapsack){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
+|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e){:target="_blank"}|1600|<details> <summary>Spoiler</summary> <ul><li>[knapsack dp (سوال کوله پشتی)](/Level2/knapsack){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
+|[Colored Balls](https://codeforces.com/contest/1954/problem/D){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[knapsack dp (سوال کوله پشتی)](/Level2/knapsack){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Fire](https://codeforces.com/problemset/problem/864/E){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[knapsack dp (سوال کوله پشتی)](/Level2/knapsack){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Antimatter](https://codeforces.com/problemset/problem/383/D){:target="_blank"}|2300|<details> <summary>Spoiler</summary> <ul><li>[knapsack dp (سوال کوله پشتی)](/Level2/knapsack){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

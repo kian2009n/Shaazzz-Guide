@@ -5,6 +5,7 @@ comments: true
 ---
 # dp بازه ای
 
+## توضیحات 
 ## دیپی l r
 
 ## توضیحات 
@@ -66,3 +67,14 @@ comments: true
 		}
 	}
 	```
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Queries for Number of Palindromes](https://codeforces.com/contest/245/problem/H){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[dp بازه ای](/Level2/dplr){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Empty String](https://cses.fi/problemset/task/1080){:target="_blank"}|1900|<details> <summary>Spoiler</summary> <ul><li>[dp بازه ای](/Level2/dplr){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[هیتایوتا](https://quera.org/problemset/14933){:target="_blank"}|2400|<details> <summary>Spoiler</summary> <ul><li>[dp بازه ای](/Level2/dplr){:target="_blank"}</li></ul> </details>|:judge-quera: [Quera](https://quera.org){:target="_blank"}|
+|[Trucks and Cities](https://codeforces.com/contest/1101/problem/F){:target="_blank"}|2600|<details> <summary>Spoiler</summary> <ul><li>[dp بازه ای](/Level2/dplr){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Zoning Restrictions](https://codeforces.com/problemset/problem/1146/G){:target="_blank"}|2700|<details> <summary>Spoiler</summary> <ul><li>[dp بازه ای](/Level2/dplr){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

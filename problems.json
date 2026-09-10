@@ -640,7 +640,7 @@
             "name": "Graph Without Long Directed Paths",
             "url": "https://codeforces.com/contest/1144/problem/F",
             "tags": [
-                "dfs"
+                "digraph"
             ],
             "difficulty": "1800"
         },
@@ -658,7 +658,7 @@
             "name": "Book of Evil",
             "url": "https://codeforces.com/contest/337/problem/d",
             "tags": [
-                "dfs"
+                "dp_tree"
             ],
             "difficulty": "2000"
         },
@@ -669,7 +669,7 @@
             "tags": [
                 "dfs"
             ],
-            "difficulty": "2600"
+            "difficulty": "2200"
         },
         {
             "judge": "cf",
@@ -685,7 +685,7 @@
             "name": "Super M",
             "url": "https://codeforces.com/contest/592/problem/d",
             "tags": [
-                "dfs"
+                "dp_tree"
             ],
             "difficulty": "2200"
         },
@@ -748,7 +748,7 @@
             "name": "Blood Cousins Return",
             "url": "https://codeforces.com/problemset/problem/246/E",
             "tags": [
-                "dfs"
+                "gooni"
             ],
             "difficulty": "2400"
         },
@@ -2260,6 +2260,267 @@
                 "dfs"
             ],
             "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Two Divisors",
+            "url": "https://codeforces.com/contest/1916/problem/B",
+            "tags": [
+                "gcd"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "cf",
+            "name": "Big Vova",
+            "url": "https://codeforces.com/contest/1407/problem/B",
+            "tags": [
+                "gcd"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "Modified GCD",
+            "url": "https://codeforces.com/contest/75/problem/C",
+            "tags": [
+                "gcd"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Enlarge GCD",
+            "url": "https://codeforces.com/contest/1034/problem/A",
+            "tags": [
+                "gcd"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cses",
+            "name": "Towers",
+            "url": "https://cses.fi/problemset/task/1073",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "sgu",
+            "name": "North-East",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/521",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Consecutive Subsequence",
+            "url": "https://codeforces.com/contest/977/problem/F",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1400"
+        },
+        {
+            "judge": "gym",
+            "name": "LCS on Permutations",
+            "url": "https://codeforces.com/gym/102951/problem/C",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "usaco",
+            "name": "Cow Jog",
+            "url": "https://usaco.org/index.php?page=viewproblem2&cpid=496",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": " Korney Korneevich and XOR (easy version)",
+            "url": "https://codeforces.com/contest/1582/problem/F1",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "LCIS",
+            "url": "https://codeforces.com/contest/10/problem/D",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Tourist",
+            "url": "https://codeforces.com/contest/76/problem/F",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "oj",
+            "name": "Global Warming",
+            "url": "https://oj.uz/problem/view/CEOI18_glo",
+            "tags": [
+                "lis_lcs"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Knapsack 1",
+            "url": "https://atcoder.jp/contests/dp/tasks/dp_d",
+            "tags": [
+                "knapsack"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Knapsack 2",
+            "url": "https://atcoder.jp/contests/dp/tasks/dp_e",
+            "tags": [
+                "knapsack"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Colored Balls",
+            "url": "https://codeforces.com/contest/1954/problem/D",
+            "tags": [
+                "knapsack"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Fire",
+            "url": "https://codeforces.com/problemset/problem/864/E",
+            "tags": [
+                "knapsack"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Antimatter",
+            "url": "https://codeforces.com/problemset/problem/383/D",
+            "tags": [
+                "knapsack"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Queries for Number of Palindromes",
+            "url": "https://codeforces.com/contest/245/problem/H",
+            "tags": [
+                "dplr"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cses",
+            "name": "Empty String",
+            "url": "https://cses.fi/problemset/task/1080",
+            "tags": [
+                "dplr"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "quera",
+            "name": "هیتایوتا",
+            "url": "https://quera.org/problemset/14933",
+            "tags": [
+                "dplr"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Trucks and Cities",
+            "url": "https://codeforces.com/contest/1101/problem/F",
+            "tags": [
+                "dplr"
+            ],
+            "difficulty": "2600"
+        },
+        {
+            "judge": "cf",
+            "name": "Zoning Restrictions",
+            "url": "https://codeforces.com/problemset/problem/1146/G",
+            "tags": [
+                "dplr"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "gfg",
+            "name": "Modular Inverse",
+            "url": "https://www.geeksforgeeks.org/problems/modular-multiplicative-inverse-1587115620/1",
+            "tags": [
+                "fermat"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Two Arrays",
+            "url": "https://codeforces.com/problemset/problem/1288/C",
+            "tags": [
+                "fermat"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Beautiful Numbers",
+            "url": "https://codeforces.com/problemset/problem/300/C",
+            "tags": [
+                "fermat"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Inversion Expectation",
+            "url": "https://codeforces.com/problemset/problem/1096/F",
+            "tags": [
+                "fermat"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Parking Lot",
+            "url": "https://codeforces.com/problemset/problem/630/I",
+            "tags": [
+                "power"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "leetcode",
+            "name": "Count Good Numbers",
+            "url": "https://leetcode.com/problems/count-good-numbers/description/",
+            "tags": [
+                "power"
+            ],
+            "difficulty": "1500"
         }
     ]
 }

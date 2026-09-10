@@ -3,8 +3,9 @@ hide:
   - footer
 comments: true
 ---
-# بزرگ ترین مقسوم علیه مشترک(ب.م.م)
+# بزرگ ترین مقسوم علیه مشترک (ب.م.م)
 
+## توضیحات 
 ## الگوریتم اقلیدس
 
 الگوریتم اقلیدس یکی از قدیمی‌ترین و ساده‌ترین روش‌ها برای پیدا کردن 
@@ -104,3 +105,13 @@ int main() {
 3. $2 \% 1 = 0$
 
 پاسخ: $\text{GCD}(101, 103) = 1$.
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Two Divisors](https://codeforces.com/contest/1916/problem/B){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[بزرگ ترین مقسوم علیه مشترک (ب.م.م)](/Level2/gcd){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Big Vova](https://codeforces.com/contest/1407/problem/B){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[بزرگ ترین مقسوم علیه مشترک (ب.م.م)](/Level2/gcd){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Modified GCD](https://codeforces.com/contest/75/problem/C){:target="_blank"}|1600|<details> <summary>Spoiler</summary> <ul><li>[بزرگ ترین مقسوم علیه مشترک (ب.م.م)](/Level2/gcd){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Enlarge GCD](https://codeforces.com/contest/1034/problem/A){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[بزرگ ترین مقسوم علیه مشترک (ب.م.م)](/Level2/gcd){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

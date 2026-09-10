@@ -20,7 +20,7 @@
         "المپیادی": {
             "name": "المپیادی",
             "icon": "judge-quera",
-            "url": "https://codeforces.org",
+            "url": "https://quera.org",
             "admonition": {
                 "type": "warning",
                 "title": "حاوی سوالات المپیاد کامپیوتر ایران!",
@@ -104,5 +104,11 @@
         "szkopul": {
             "name": "SZKopul",
             "url": "https://szkopul.edu.pl"
+        }, 
+
+        "gfg": {
+            "name": "GeeksForGeeks",
+            "icon": "judge-gfg",
+            "url": "https://www.geeksforgeeks.org/"
         }
 }

@@ -3,7 +3,7 @@ hide:
   - footer
 comments: true
 ---
-# گراف جهتدار(Digraph)
+# گراف جهتدار (Digraph)
 
 ## توضیحات 
 ## گراف جهت‌دار (Directed Graph)
@@ -160,6 +160,7 @@ v
   <input type="submit" value="Submit" class="md-button cf-handel-button">
 </form> | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
-|[Cycle](https://codeforces.com/contest/117/problem/c){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار(Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Flight Routes Check ](https://cses.fi/problemset/task/1682){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار(Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
-|[Mr. Kitayuta's Technology](https://codeforces.com/contest/505/problem/D){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار(Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Graph Without Long Directed Paths](https://codeforces.com/contest/1144/problem/F){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار (Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Cycle](https://codeforces.com/contest/117/problem/c){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار (Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Flight Routes Check ](https://cses.fi/problemset/task/1682){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار (Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[Mr. Kitayuta's Technology](https://codeforces.com/contest/505/problem/D){:target="_blank"}|2200|<details> <summary>Spoiler</summary> <ul><li>[گراف جهتدار (Digraph)](/Level2/digraph){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
