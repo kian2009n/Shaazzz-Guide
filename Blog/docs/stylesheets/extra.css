@@ -54,3 +54,7 @@
 .md-typeset__scrollwrap {
   text-align: center;
 }
+.md-typeset :not(pre) > code {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
