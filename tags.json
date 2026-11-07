@@ -4,53 +4,43 @@
             "path": "intro.md",
             "blog_title": "مقدمه"
         },
-
         "implementation": {
             "path": "implementation.md",
             "blog_title": "پیاده سازی"
         },
-
         "recursive": {
             "path": "recursive.md",
             "blog_title": "توابع بازگشتی"
         },
-
         "bitmask": {
             "path": "bitmask.md",
             "blog_title": "عملیات های بیتی"
         },
-
         "binary_search": {
             "path": "binary_search.md",
             "blog_title": "باینری سرچ"
         },
-
         "two_pointers": {
             "path": "two_pointers.md",
             "blog_title": "Two Pointers"
         },
-
         "divide": {
             "path": "divide.md",
             "blog_title": "تقسیم و حل"
         },
-
         "sort": {
             "path": "sort.md",
             "blog_title": "مرتب سازی"
         },
-
         "prefix_sum": {
             "path": "prefix_sum.md",
-            "blog_title":"پریفیکس سام"
+            "blog_title": "پریفیکس سام"
         },
-
         "greedy": {
             "path": "greedy.md",
             "blog_title": "الگوریتم های حریصانه"
         }
     },
-
     "Level2": {
         "ds_basic": {
             "path": "ds_basic.md",
@@ -84,10 +74,6 @@
             "path": "fermat.md",
             "blog_title": "قضیه کوچک فرما و وارون ضربی"
         },
-        "combinatorics": {
-            "path": "combinatorics.md",
-            "blog_title": "انتخاب و سوالات ترکیبیاتی"
-        },
         "dp": {
             "path": "dp.md",
             "blog_title": "برنامه نویسی پویا (Dynamic Programming)"
@@ -103,6 +89,10 @@
         "dplr": {
             "path": "dplr.md",
             "blog_title": "dp بازه ای"
+        },
+        "combinatorics": {
+            "path": "combinatorics.md",
+            "blog_title": "انتخاب و سوالات ترکیبیاتی"
         },
         "dfs": {
             "path": "dfs.md",

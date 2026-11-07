@@ -139,11 +139,11 @@ nav:
     - تابع فی اویلر: Level2/Euler'sTotientFunction.md
     - محاسبه توان پیمانه دار: Level2/power.md
     - قضیه کوچک فرما و وارون ضربی: Level2/fermat.md
-    - انتخاب و سوالات ترکیبیاتی: Level2/combinatorics.md
     - برنامه نویسی پویا (Dynamic Programming): Level2/dp.md
     - knapsack dp (سوال کوله پشتی): Level2/knapsack.md
     - LIS و LCS: Level2/lis_lcs.md
     - dp بازه ای: Level2/dplr.md
+    - انتخاب و سوالات ترکیبیاتی: Level2/combinatorics.md
     - DFS: Level2/dfs.md
     - گراف جهتدار (Digraph): Level2/digraph.md
     - DAG و Topological sort: Level2/topol_sort.md
