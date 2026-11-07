@@ -5,6 +5,7 @@ comments: true
 ---
 # غربال و تجزیه اعداد
 
+## توضیحات 
 غربال (Sieve) به دسته‌ای از الگوریتم‌ها گفته می‌شود که با یک بار پیش‌پردازش روی تمام اعداد بازه‌ی $[1, n]$، اطلاعاتی را برای هر عدد حساب می‌کنند؛ معمولا به این شکل که هنگام پردازش هر عدد، مضارب آن را به‌روز می‌کنیم. در این بخش ابتدا با معروف‌ترین غربال، یعنی غربال اراتستن، تمام اعداد اول تا $n$ را پیدا می‌کنیم و سپس می‌بینیم که با تغییر کوچکی در همین ایده می‌توان هر عدد را در زمان لگاریتمی به عوامل اولش تجزیه کرد.
 
 ### غربال اراتستن
@@ -308,3 +309,13 @@ vector<long long> all_divisors(int x) {
 + [Sieve of Eratosthenes](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
 + [Integer Factorization](https://cp-algorithms.com/algebra/factorization.html)
 
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[2017-like Number](https://atcoder.jp/contests/abc084/tasks/abc084_d){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[غربال و تجزیه اعداد](/Level2/sieve){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
+|[T-prime](https://codeforces.com/problemset/problem/230/B){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[غربال و تجزیه اعداد](/Level2/sieve){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[غربال و تجزیه اعداد](/Level2/sieve){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|
+|[Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[غربال و تجزیه اعداد](/Level2/sieve){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

@@ -5,6 +5,7 @@ comments: true
 ---
 # تعداد مقسوم علیه ها و تشخیص اول بودن یک عدد
 
+## توضیحات 
 مقسوم‌علیه‌های یک عدد، اعدادی هستند که آن عدد بر آن‌ها بخش‌پذیر است. برای مثال مقسوم‌علیه‌های $12$ عبارت‌اند از $1, 2, 3, 4, 6, 12$ و در نتیجه $12$ شش مقسوم‌علیه دارد. همچنین به عددی بزرگ‌تر از ۱ که دقیقا دو مقسوم‌علیه ($1$ و خودش) داشته باشد، عدد اول می‌گوییم. در این بخش می‌خواهیم یاد بگیریم تعداد مقسوم‌علیه‌های یک عدد را بشماریم و اول بودن یک عدد را تشخیص دهیم.
 
 ### مسئله
@@ -74,3 +75,11 @@ bool isPrime(long long n) {
 + [Primality Tests](https://cp-algorithms.com/algebra/primality_tests.html)
 + [Divisor function](https://en.wikipedia.org/wiki/Divisor_function)
 
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Counting Divisors](https://cses.fi/alon/task/1713){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[تعداد مقسوم علیه ها و تشخیص اول بودن یک عدد](/Level2/divisors_prime){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[Digits In Multiplication](https://atcoder.jp/contests/abc057/tasks/abc057_c){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[تعداد مقسوم علیه ها و تشخیص اول بودن یک عدد](/Level2/divisors_prime){:target="_blank"}</li></ul> </details>|:judge-atcoder: [Atcoder](https://atcoder.jp){:target="_blank"}|

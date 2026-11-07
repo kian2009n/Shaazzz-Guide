@@ -5,6 +5,7 @@ comments: true
 ---
 # کاربرد های مختلف stack در سوالات
 
+## توضیحات 
 در [بخش قبل](/Level2/ds_basic/) با استک آشنا شدیم و دیدیم که از قانون «آخرین ورودی، اولین خروجی» پیروی می‌کند. در این بخش چند مسئله‌ی کلاسیک را می‌بینیم که با همین داده‌ساختار ساده در زمان خطی حل می‌شوند. در کدها به جای `#!cpp stack` از `#!cpp vector` استفاده می‌کنیم؛ `#!cpp push_back`، `#!cpp pop_back` و `#!cpp back` دقیقا همان کار استک را می‌کنند و علاوه بر آن امکان پیمایش اعضا را هم داریم.
 
 ### بررسی درستی پرانتزها
@@ -303,3 +304,13 @@ int main() {
 + [Sliding Window - USACO Guide](https://usaco.guide/gold/sliding-window)
 + [Minimum stack / Minimum queue](https://cp-algorithms.com/data_structures/stack_queue_modification.html)
 
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Nearest Smaller Values](https://cses.fi/problemset/task/1645){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[کاربرد های مختلف stack در سوالات](/Level2/stack){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[Advertisement ](https://cses.fi/problemset/task/1142){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[کاربرد های مختلف stack در سوالات](/Level2/stack){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[Regular Bracket Sequence ](https://codeforces.com/problemset/problem/26/B){:target="_blank"}|1400|<details> <summary>Spoiler</summary> <ul><li>[کاربرد های مختلف stack در سوالات](/Level2/stack){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
+|[Sliding Window Median](https://cses.fi/problemset/task/1076){:target="_blank"}|1500|<details> <summary>Spoiler</summary> <ul><li>[کاربرد های مختلف stack در سوالات](/Level2/stack){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|

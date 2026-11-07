@@ -2505,6 +2505,15 @@
             "difficulty": "2300"
         },
         {
+            "judge": "cses",
+            "name": "Exponentiation 2",
+            "url": "https://cses.fi/ckvo8q5wh/task/1712",
+            "tags": [
+                "fermat"
+            ],
+            "difficulty": "1500"
+        },
+        {
             "judge": "cf",
             "name": "Parking Lot",
             "url": "https://codeforces.com/problemset/problem/630/I",
@@ -2521,6 +2530,132 @@
                 "power"
             ],
             "difficulty": "1500"
+        },
+        {
+            "judge": "cf",
+            "name": "Flowers",
+            "url": "https://codeforces.com/problemset/problem/474/D",
+            "tags": [
+                "dp"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cses",
+            "name": "Distinct Numbers",
+            "url": "https://cses.fi/ckvo8q5wh/task/1621",
+            "tags": [
+                "ds_basic"
+            ],
+            "difficulty": "900"
+        },
+        {
+            "judge": "cf",
+            "name": "Registration System",
+            "url": "https://codeforces.com/problemset/problem/4/C",
+            "tags": [
+                "ds_basic"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cses",
+            "name": "Concert Tickets",
+            "url": "https://cses.fi/alon/task/1091",
+            "tags": [
+                "ds_basic"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "cses",
+            "name": "Nearest Smaller Values",
+            "url": "https://cses.fi/problemset/task/1645",
+            "tags": [
+                "stack"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "cses",
+            "name": "Advertisement ",
+            "url": "https://cses.fi/problemset/task/1142",
+            "tags": [
+                "stack"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "Regular Bracket Sequence ",
+            "url": "https://codeforces.com/problemset/problem/26/B",
+            "tags": [
+                "stack"
+            ],
+            "difficulty": "1400"
+        },
+        {
+            "judge": "cses",
+            "name": "Sliding Window Median",
+            "url": "https://cses.fi/problemset/task/1076",
+            "tags": [
+                "stack"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "cses",
+            "name": "Counting Divisors",
+            "url": "https://cses.fi/alon/task/1713",
+            "tags": [
+                "divisors_prime"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Digits In Multiplication",
+            "url": "https://atcoder.jp/contests/abc057/tasks/abc057_c",
+            "tags": [
+                "divisors_prime"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "T-prime",
+            "url": "https://codeforces.com/problemset/problem/230/B",
+            "tags": [
+                "sieve"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "atcoder",
+            "name": "2017-like Number",
+            "url": "https://atcoder.jp/contests/abc084/tasks/abc084_d",
+            "tags": [
+                "sieve"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Div Game",
+            "url": "https://atcoder.jp/contests/abc169/tasks/abc169_d",
+            "tags": [
+                "sieve"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "Product of Three Numbers",
+            "url": "https://codeforces.com/problemset/problem/1294/C",
+            "tags": [
+                "sieve"
+            ],
+            "difficulty": "1300"
         }
     ]
 }

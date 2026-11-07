@@ -5,6 +5,7 @@ comments: true
 ---
 # داده ساختار های مقدماتی
 
+## توضیحات 
 در بسیاری از مسائل، دانستن الگوریتم به تنهایی کافی نیست و انتخاب داده‌ساختار (Data Structure) مناسب هم در سرعت اجرا و هم در سادگی پیاده‌سازی نقش مهمی دارد. داده‌ساختار روشی برای ذخیره و سازمان‌دهی داده‌هاست به طوری که عملیات‌هایی مثل درج، حذف، جستجو و دسترسی به اعضا سریع انجام شوند. دو کد ممکن است ایده‌ی یکسانی داشته باشند، اما یکی به خاطر انتخاب داده‌ساختار درست در زمان مجاز اجرا شود و دیگری با خطای زمان (Time Limit) مواجه شود. در این بخش با پرکاربردترین داده‌ساختارهای کتابخانه‌ی استاندارد <span dir="ltr">C++ (STL)</span> آشنا می‌شویم. برای استفاده از همه‌ی آن‌ها کافی است <span dir="ltr">`#!cpp #include <bits/stdc++.h>`</span> را در ابتدای کد بنویسید.
 
 ### وکتور (Vector) و زوج (Pair)
@@ -444,3 +445,12 @@ cout << it->first << ' ' << it->second << endl; // ali 20
 + [C++ STL - USACO Guide](https://usaco.guide/bronze/intro-ds)
 + [4 - Data structures](https://usaco.guide/CPH.pdf#page=45)
 
+## سوال ها 
+ <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
+  <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
+  <input type="submit" value="Submit" class="md-button cf-handel-button">
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
+|[Distinct Numbers](https://cses.fi/ckvo8q5wh/task/1621){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[داده ساختار های مقدماتی](/Level2/ds_basic){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[Concert Tickets](https://cses.fi/alon/task/1091){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[داده ساختار های مقدماتی](/Level2/ds_basic){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
+|[Registration System](https://codeforces.com/problemset/problem/4/C){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[داده ساختار های مقدماتی](/Level2/ds_basic){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
