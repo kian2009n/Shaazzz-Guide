@@ -58,3 +58,10 @@
   direction: ltr;
   unicode-bidi: isolate;
 }
+
+.md-typeset img.figure {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+  height: auto;
+}
